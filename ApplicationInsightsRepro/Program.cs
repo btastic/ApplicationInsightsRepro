@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // remove this line, and all the tests will run properly
+// it will also work fine on application insights 2.23.0
 builder.Services.AddApplicationInsightsTelemetry();
 
 // Add DbContext

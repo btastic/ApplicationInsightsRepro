@@ -27,7 +27,6 @@ internal sealed class GlobalSetupFixture
 
     public static string DatabaseConnectionString { get; private set; } = string.Empty;
 
-
     [OneTimeSetUp]
     public async Task SetUp()
     {

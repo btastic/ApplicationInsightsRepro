@@ -7,7 +7,7 @@ public class DefaultTestFixture
 
     public DefaultTestFixture()
     {
-        Factory = new TestWebApplicationFactory(null, false);
+        Factory = new TestWebApplicationFactory();
 
         ServerClient = Factory.CreateClient();
         ServerClient.Timeout = TimeSpan.FromMinutes(5);
