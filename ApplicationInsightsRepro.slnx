@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ApplicationInsightsRepro.IntegrationTests/ApplicationInsightsRepro.IntegrationTests.csproj" />
+  <Project Path="ApplicationInsightsRepro/ApplicationInsightsRepro.csproj" />
+</Solution>

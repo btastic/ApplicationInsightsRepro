@@ -1,0 +1,6 @@
+@ApplicationInsightsRepro_HostAddress = http://localhost:5240
+
+GET {{ApplicationInsightsRepro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
