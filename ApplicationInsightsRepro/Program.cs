@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+
+// remove this line, and all the tests will run properly
 builder.Services.AddApplicationInsightsTelemetry();
 
 // Add DbContext
